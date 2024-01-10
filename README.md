@@ -1,5 +1,5 @@
 # 微星 GP76 10th hackintosh
-
+致谢:[RSWLZJ](https://github.com/RSWLZJ/-MSI_GP76_10UG-426CN_macOS_EFI)\以及为 hackintosh 付出努力的各位.
 ## Msi GP76 10th Hackintosh
 ### 适用：`2020款微星 GP76,可能还适用于同样 10th 的 GS/GL/GP/GE系列,未测试`
 ## 电脑配置
@@ -62,6 +62,8 @@ sudo trimforce enable
 pwpolicy -clearaccountpolicies
 - `取消四位数密码限制`
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+- `定制 USB`
+教程暂时没找到合适的,有兴趣了更新.
 
 ## 坑点教训
 - 坑点 1 `PM981/970EVO plus的随机卡死问题`,保存文件很卡,卡了又会好,一直以为是 GM7000的问题,最好才找到提示说随机卡死问题,我的 8 小时.感谢[来源 1](https://github.com/neophack/tongfang-utility/blob/cbc091a6880576070d1700cf289d08fe109827f0/src/resources/i18n/config.ts#L86) [来源 2](https://github.com/neophack/tongfang-utility/blob/cbc091a6880576070d1700cf289d08fe109827f0/src/resources/i18n/config.ts#L86)
@@ -71,4 +73,10 @@ pwpolicy -clearaccountpolicies
 - 坑点 5 `信息检索`中文互联网,有用的信息蛮少,呵呵哒!
 
 ## 最后来点靓照吧
-
+ <img src="image/机型信息.png" width="768px" alt="机型信息">
+ <img src="image/机型信息 2.png" width="768px" alt="机型信息 2">
+ <img src="image/硬盘.png" width="768px" alt="硬盘">
+ <img src="image/wifi.png" width="768px" alt="wifi">
+ <img src="image/蓝牙.png" width="768px" alt="蓝牙">
+ <img src="image/音频.png" width="768px" alt="音频">
+ <img src="image/USB.png" width="768px" alt="USB">
